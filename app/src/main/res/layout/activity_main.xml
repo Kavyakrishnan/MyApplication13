@@ -1,0 +1,45 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/myxmlfile"
+    android:padding="10dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditText
+        android:id="@+id/UNAME"
+        android:hint="Enter your name"
+        android:textSize="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/PWORD"
+        android:hint="Enter your password"
+        android:drawableLeft="@drawable/password"
+        android:textSize="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+   <androidx.appcompat.widget.AppCompatButton
+       android:background="#00aabb"
+       android:textColor="#3F51B5"
+        android:text="LOGIN"
+       android:id="@+id/LOGIN"
+       android:layout_margin="50dp"
+
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+        android:text="GO TO REGISTER"
+        android:id="@+id/GTR"
+            android:layout_margin="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+
+
+
+</LinearLayout>
